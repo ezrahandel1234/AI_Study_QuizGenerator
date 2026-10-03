@@ -1409,7 +1409,7 @@ def main():
 
     html_template = html_part_1 + html_part_2 + html_part_3
 
-    output_dir = r"C:\Users\ezrah\OneDrive\Desktop\Studying_Quiz\Groq_Quiz_Generator\V8\Generated_Quiz"
+    output_dir = r"Your_Desired_Quiz_Location_This_Will_Set_Location_Of_Ouputed_Quiz"
     os.makedirs(output_dir, exist_ok=True)
     
     base_name = generate_filename_from_notes(client, model_name, notes_input)
